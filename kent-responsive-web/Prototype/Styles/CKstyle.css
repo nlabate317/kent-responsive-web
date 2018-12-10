@@ -782,6 +782,22 @@ section {
   background-color: rgb(93,139,200, .2);
 }
 
+button {
+  font-family: "Poppins";
+  font-size: 1em;
+  text-decoration: none;
+  text-align: center;
+  padding: 5px 20px 5px 20px;
+  border: 2px solid rgb(93,139,200);
+  color: rgb(93,139,200);
+  transition: .5s all ease;
+}
+
+button:hover {
+  border: 2px solid rgb(223,184,62);
+  color: rgb(223,184,62);
+}
+
 
 /*-----CAREERS breakpoint--------*/
 @media screen and (min-width: 700px) {
